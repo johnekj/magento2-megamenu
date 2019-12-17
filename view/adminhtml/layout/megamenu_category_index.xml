@@ -32,8 +32,5 @@
         <referenceContainer name="content">
             <block class="Bss\Megamenu\Block\Adminhtml\Category\Content" name="megamenu.content" template="Bss_Megamenu::category/content.phtml"/>
         </referenceContainer>
-        <referenceContainer name="js">
-            <block class="Magento\Framework\View\Element\Template" template="Magento_Catalog::catalog/wysiwyg/js.phtml" name="catalog.wysiwyg.js"/>
-        </referenceContainer>
     </body>
 </page>
